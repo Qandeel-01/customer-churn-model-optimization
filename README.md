@@ -18,7 +18,6 @@ models in RapidMiner, using customer churn as the case study.
 - [Task 4 — Model Optimization](#task-4--model-optimization)
 - [Results Summary](#results-summary)
 - [Key Takeaways](#key-takeaways)
-- [Repository Structure](#repository-structure)
 
 ## Objectives
 
@@ -335,51 +334,6 @@ The useful region is the narrow band of small gain values on the left.
 4. **Tuning the model** — Optimize Parameters (Grid) searches hyperparameters systematically
    with nested cross-validation, and a Log operator makes the whole search inspectable rather
    than a black box.
-
-## Repository Structure
-
-```
-.
-├── README.md
-├── lab10.rmp               # RapidMiner process file
-└── images/                 # 36 annotated screenshots referenced above
-    ├── 01-source-dataset-file.png
-    ├── 02-read-excel-import-wizard.png
-    ├── 03-change-role-to-label.png
-    ├── 04-format-columns.png
-    ├── 05-read-excel-filter-examples.png
-    ├── 06-filter-condition-churn-not-missing.png
-    ├── 07-decision-tree-connected.png
-    ├── 08-decision-tree-model.png
-    ├── 09-prediction-confidence-table.png
-    ├── 10-process-reset-to-filter.png
-    ├── 11-cross-validation-added.png
-    ├── 12-cross-validation-subprocesses.png
-    ├── 13-cross-validation-per-port.png
-    ├── 14-cross-validation-performance.png
-    ├── 15-breakpoint-paused-exampleset.png
-    ├── 16-breakpoint-after-filter.png
-    ├── 17-exampleset-result.png
-    ├── 18-breakpoint-removed.png
-    ├── 19-remove-all-breakpoints-menu.png
-    ├── 20-compare-rocs-operator.png
-    ├── 21-models-inside-compare-rocs.png
-    ├── 22-compare-rocs-connections.png
-    ├── 23-compare-rocs-main-process.png
-    ├── 24-roc-comparison-curves.png
-    ├── 25-multiply-rocs-and-cross-validation.png
-    ├── 26-confidence-performance-table.png
-    ├── 27-roc-curves-detail.png
-    ├── 28-optimize-parameters-added.png
-    ├── 29-compare-rocs-disabled.png
-    ├── 30-optimizer-in-main-process.png
-    ├── 31-cross-validation-inside-optimizer.png
-    ├── 32-select-parameters-grid-range.png
-    ├── 33-log-operator-parameter-list.png
-    ├── 34-log-operator-connected.png
-    ├── 35-optimization-results-log.png
-    └── 36-performance-vs-gain-by-criterion.png
-```
 
 ---
 
