@@ -10,6 +10,7 @@ models in RapidMiner, using customer churn as the case study.
 ## Contents
 
 - [Objectives](#objectives)
+- [Tools & Technologies](#tools--technologies)
 - [Prerequisites](#prerequisites)
 - [Dataset](#dataset)
 - [Task 1 — Testing a Model](#task-1--testing-a-model)
@@ -28,6 +29,17 @@ By the end of this lab you should be able to:
 3. Replace a naive train-on-everything setup with **cross-validation**.
 4. Compare several algorithms at once with **Compare ROCs** and interpret confidence values.
 5. Tune hyperparameters systematically with **Optimize Parameters (Grid)** and log the search.
+
+## Tools & Technologies
+
+| Category | Details |
+|---|---|
+| **Platform** | RapidMiner Studio / AI Studio (v12.1+) |
+| **Process format** | `.rmp` (XML-based RapidMiner process file) |
+| **Data format** | Microsoft Excel (`.xlsx`) |
+| **Algorithms** | Decision Tree, Naive Bayes, k-NN, Rule Induction, Random Forest |
+| **Operators used** | Read Excel, Filter Examples, Cross Validation, Compare ROCs, Optimize Parameters (Grid), Apply Model, Performance, Log, Multiply |
+| **Evaluation metrics** | Accuracy, Precision, Recall, AUC, Confusion Matrix |
 
 ## Prerequisites
 
