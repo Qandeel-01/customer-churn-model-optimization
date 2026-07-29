@@ -1,4 +1,4 @@
-# Lab 10 — Model Validation & Optimization
+# Model Validation & Optimization using Rapid Miner
 
 > **Course:** CS-423 Data Warehousing and Data Mining
 > **Tool:** RapidMiner Studio / AI Studio
